@@ -6,6 +6,23 @@ Protocol thinking for VOR
 ### Data type:
 - Custom (binary) or JSON?
 
+### Data Structures
+
+- STATUS
+```
+- List apps {(apps id), (ports used by an app's route), (apps OSC L4 protocol [UDP/TCP])}
+- Other data
+```
+- PUSH
+```
+- AppConfig (apps id), (ports used by an app's route), (apps OSC L4 protocol [UDP/TCP])
+```
+- PUSHACK
+```
+- SUCCESS/FAILURE
+- SUCCESS (return accepted config)
+- FAILURE (return declined config information)
+```
 ### Flow
 -> OSCAPP: STATUS
 
