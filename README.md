@@ -2,10 +2,11 @@
 Protocol thinking for VOR
 
 ## First thoughts
-Data type:
+
+### Data type:
 - Custom (binary) or JSON?
 
-## Flow
+### Flow
 -> OSCAPP: STATUS
 
 <- VOR: STATUS
