@@ -7,7 +7,11 @@ Data type:
 
 ## Flow
 -> OSCAPP: STATUS
+
 <- VOR: STATUS
+
 -> OSCAPP: PUSH (app config)
+
 <- VOR: SUCCESS/FAIL (Sets up route or not)
+
 OSCAPP: Begins app routines or tries again
