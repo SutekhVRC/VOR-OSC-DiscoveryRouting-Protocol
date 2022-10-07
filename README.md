@@ -3,6 +3,11 @@ Protocol thinking for VOR
 
 ## First thoughts
 
+- VOR will have a modular management port implementation to allow easy implementation of new management protocols
+- A simple easy to use generic management protocol anyone can use from any language
+- A more advanced compact / efficient protocol
+- Other protocols
+
 ### Data type:
 - Custom (binary) or JSON?
 - Modded OSC
