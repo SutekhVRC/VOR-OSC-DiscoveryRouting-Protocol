@@ -5,6 +5,7 @@ Protocol thinking for VOR
 
 ### Data type:
 - Custom (binary) or JSON?
+- Modded OSC
 
 ### Data Structures
 
