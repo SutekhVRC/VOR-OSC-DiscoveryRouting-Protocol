@@ -14,7 +14,7 @@ Protocol thinking for VOR
 
 ### Data Structures
 
-- STATUS
+- STATUS / STATUSACK
 ```
 - List apps {(apps id), (ports used by an app's route), (apps OSC L4 protocol [UDP/TCP])}
 - Other data
