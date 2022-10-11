@@ -36,6 +36,7 @@ Protocol thinking for VOR
 
 ### Flow
 
+```
 -> OSCAPP: STATUS
 
 <- VOR: STATUS
@@ -45,3 +46,4 @@ Protocol thinking for VOR
 <- VOR: SUCCESS/FAIL (Sets up route or not)
 
 OSCAPP: Begins app routines or tries again
+```
