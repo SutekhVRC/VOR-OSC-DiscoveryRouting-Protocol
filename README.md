@@ -21,6 +21,7 @@ Protocol thinking for VOR
 - STATUS / STATUSACK
 ```
 - List apps {(apps id), (ports used by an app's route), (apps OSC L4 protocol [UDP/TCP])}
+- VOR configuration
 - Other data
 ```
 - PUSH
