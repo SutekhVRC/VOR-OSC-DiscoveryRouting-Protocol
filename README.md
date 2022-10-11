@@ -8,8 +8,12 @@ Protocol thinking for VOR
 - A more advanced compact / efficient protocol
 - Other protocols
 
+### Management Port
+  - 86086
+  - UDP
+
 ### Data type:
-- Custom (binary) or JSON?
+- UDP(JSON)
 - Modded OSC
 
 ### Data Structures
@@ -29,7 +33,9 @@ Protocol thinking for VOR
 - SUCCESS (return accepted config)
 - FAILURE (return declined config information)
 ```
+
 ### Flow
+
 -> OSCAPP: STATUS
 
 <- VOR: STATUS
