@@ -9,7 +9,7 @@ Protocol thinking for VOR
 - Other protocols
 
 ### Management Port
-  - 86086
+  - 8686
   - UDP
 
 ### Data type:
